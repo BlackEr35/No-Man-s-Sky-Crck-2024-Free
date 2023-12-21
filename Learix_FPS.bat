@@ -25,22 +25,17 @@ echo.
 call :ColorText 8 "                         [ "
 call :ColorText B " 1 "
 call :ColorText 8 " ] " 
-call :ColorText F " Fps Tweaks "
+call :ColorText F " Fps Yükseltme "
 call :ColorText 8 "                                              [ "
 call :ColorText B " 2 "
 call :ColorText 8 " ] " 
-call :ColorText F " Remove Tweaks "
+call :ColorText F " Geri Al "
 echo.
 echo.
 echo.
 call :ColorText 8 "                         [ "
 call :ColorText B " 3 "
 call :ColorText 8 " ] " 
-call :ColorText F " Updates "
-call :ColorText 8 "                                                 [ "
-call :ColorText B " 4 "
-call :ColorText 8 " ] " 
-call :ColorText F " Options "
 echo.
 echo.
 echo.
@@ -65,22 +60,22 @@ echo.
 call :ColorText 8 "                         [ "
 call :ColorText B " 1 "
 call :ColorText 8 " ] " 
-call :ColorText F " Fps Regedit "
+call :ColorText F " FPS Regediti "
 call :ColorText 8 "                                          [ "
 call :ColorText B " 2 "
 call :ColorText 8 " ] " 
-call :ColorText F " Memory Optimizer "
+call :ColorText F " Hafıza Optimize "
 echo.
 echo.
 echo.
 call :ColorText 8 "                         [ "
 call :ColorText B " 3 "
 call :ColorText 8 " ] " 
-call :ColorText F " Windows Booster "
+call :ColorText F " Windows Optimize () "
 call :ColorText 8 "                                      [ "
 call :ColorText B " 4 "
 call :ColorText 8 " ] " 
-call :ColorText F " Service Disabler "
+call :ColorText F " Servise optimize "
 echo.
 echo.
 echo.
@@ -326,80 +321,6 @@ wmic process where ProcessId=%pid% CALL setpriority "realtime"
 cls
 goto 2
 
-
-:3
-cls
-echo.
-echo.
-echo.
-echo.
-echo.
-call :ColorText 08 "                         - "
-call :ColorText 0B " Slightly Improved Menu "
-echo.
-echo.
-call :ColorText 08 "                         - "
-call :ColorText 0B " Added Options "
-echo.
-echo.
-call :ColorText 08 "                         - "
-call :ColorText 0B " Better Fps Improvements "
-echo.
-echo.
-call :ColorText 8 "                                                        [ Geri gitmek için X ]"
-echo.
-echo.
-set /p choose="> "
-
-if /i "%choose%"=="X" (goto menu)
-
-
-
-:4
-cls
-echo.
-echo.
-echo.
-echo.
-echo.
-call :ColorText 8 "                         [ "
-call :ColorText B " 1 "
-call :ColorText 8 " ] " 
-call :ColorText F " Change Color  "
-call :ColorText 8 "                                                    [ "
-call :ColorText B " 2 "
-call :ColorText 8 " ] " 
-call :ColorText F " About "
-echo.
-echo.
-echo.
-call :ColorText 8 "                                                        [ Geri gitmek için X ]"
-echo.
-echo.
-set /p choose="> "
-
-if /i "%choose%"=="1" (goto ChangeColor)
-if /i "%choose%"=="2" (goto About)
-if /i "%choose%"=="X" (goto menu)
-
-
-:ChangeColor
-cls
-cls
-echo.
-echo.
-echo.
-echo.
-echo.
-echo. 
-echo.
-echo.
-echo.
-call :ColorText 8 "                                                        [ Geri gitmek için X ]"
-echo.
-echo.
-set /p choose="> "
-
 if /i "%choose%"=="Blue" (goto Blue)
 if /i "%choose%"=="Aqua" (goto Aqua)
 if /i "%choose%"=="Red" (goto Red)
@@ -475,40 +396,37 @@ echo.
 call :ColorText 8 "                         [ "
 call :ColorText B " 1 "
 call :ColorText 8 " ] " 
-call :ColorText F " Cleaner "
+call :ColorText F " Temzleyici "
 call :ColorText 8 "                                                  [ "
 call :ColorText B " 2 "
 call :ColorText 8 " ] " 
-call :ColorText F " Game Booster "
+call :ColorText F " Oyun Booster "
 echo.
 echo.
 echo.
 call :ColorText 8 "                         [ "
 call :ColorText B " 3 "
 call :ColorText 8 " ] " 
-call :ColorText F " Service Disabler "
+call :ColorText F " Servis Optimize "
 call :ColorText 8 "                                         [ "
 call :ColorText B " 4 "
 call :ColorText 8 " ] " 
-call :ColorText F " Fps Regedit "
+call :ColorText F " Fps Optimize "
 echo.
 echo.
 echo.
 call :ColorText 8 "                         [ "
 call :ColorText B " 5 "
 call :ColorText 8 " ] " 
-call :ColorText F " Memory Optimizer "
+call :ColorText F " Hafıza Optimize "
 call :ColorText 8 "                                         [ "
 call :ColorText B " 6 "
 call :ColorText 8 " ] " 
-call :ColorText F " Windows Booster "
+call :ColorText F " Windows Optimize "
 echo.
 echo.
 echo.
 call :ColorText 8 "                                                        [ "
-call :ColorText B " 7 "
-call :ColorText 8 " ] " 
-call :ColorText F " Debloat "
 echo.
 echo.
 echo.
@@ -523,7 +441,6 @@ if /i "%choose%"=="3" (goto A3)
 if /i "%choose%"=="4" (goto A4)
 if /i "%choose%"=="5" (goto A5)
 if /i "%choose%"=="6" (goto A6)
-if /i "%choose%"=="7" (goto A7)
 if /i "%choose%"=="X" (goto menu)
 
 :A1
