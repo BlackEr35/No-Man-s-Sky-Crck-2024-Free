@@ -15,17 +15,10 @@ for /F "tokens=1,2 delims=#" %%a in ('"prompt #$H#$E# & echo on & for %%b in (1)
 cls
 echo.
 echo.
-call :ColorText 08  "                                                              Version 2.0 "
 echo.
 echo.
-echo."                                 _                             _            _____   ____    ____  
-echo."                                | |       ___    __ _   _ __  (_) __  __   |  ___| |  _ \  / ___| 
-echo."                                | |      / _ \  / _` | | '__| | | \ \/ /   | |_    | |_) | \___ \ 
-echo."                                | |___  |  __/ | (_| | | |    | |  >  <    |  _|   |  __/   ___) |
-echo."                                |_____|  \___|  \__,_| |_|    |_| /_/\_\   |_|     |_|     |____/ 
 echo.                                                                                               
-echo. 
-call :ColorText 08 "                         _________________________________________________________________________________"
+echo.
 echo.
 echo.
 echo.
@@ -51,7 +44,7 @@ call :ColorText F " Options "
 echo.
 echo.
 echo.
-call :ColorText 8 "                                                        [ X to Exit ]"
+call :ColorText 8 "                                                        [ Kapatmak için X ]"
 echo.
 echo.
 set /p choose="> "
@@ -66,17 +59,6 @@ if /i "%choose%"=="X" (goto Exit)
 cls
 echo.
 echo.
-call :ColorText 08  "                                                              Version 2.0 "
-echo.
-echo.
-echo."                                 _                             _            _____   ____    ____  
-echo."                                | |       ___    __ _   _ __  (_) __  __   |  ___| |  _ \  / ___| 
-echo."                                | |      / _ \  / _` | | '__| | | \ \/ /   | |_    | |_) | \___ \ 
-echo."                                | |___  |  __/ | (_| | | |    | |  >  <    |  _|   |  __/   ___) |
-echo."                                |_____|  \___|  \__,_| |_|    |_| /_/\_\   |_|     |_|     |____/ 
-echo.                                                                                               
-echo. 
-call :ColorText 08 "                         _________________________________________________________________________________"
 echo.
 echo.
 echo.
@@ -102,7 +84,7 @@ call :ColorText F " Service Disabler "
 echo.
 echo.
 echo.
-call :ColorText 8 "                                                        [ X to go back ]"
+call :ColorText 8 "                                                        [ Geri gitmek için X ]"
 echo.
 echo.
 set /p choose="> "
@@ -349,17 +331,6 @@ goto 2
 cls
 echo.
 echo.
-call :ColorText 08  "                                                              Version 2.0 "
-echo.
-echo.
-echo."                                 _                             _            _____   ____    ____  
-echo."                                | |       ___    __ _   _ __  (_) __  __   |  ___| |  _ \  / ___| 
-echo."                                | |      / _ \  / _` | | '__| | | \ \/ /   | |_    | |_) | \___ \ 
-echo."                                | |___  |  __/ | (_| | | |    | |  >  <    |  _|   |  __/   ___) |
-echo."                                |_____|  \___|  \__,_| |_|    |_| /_/\_\   |_|     |_|     |____/ 
-echo.                                                                                               
-echo. 
-call :ColorText 08 "                         _________________________________________________________________________________"
 echo.
 echo.
 echo.
@@ -375,7 +346,7 @@ call :ColorText 08 "                         - "
 call :ColorText 0B " Better Fps Improvements "
 echo.
 echo.
-call :ColorText 8 "                                                        [ X to go Back ]"
+call :ColorText 8 "                                                        [ Geri gitmek için X ]"
 echo.
 echo.
 set /p choose="> "
@@ -388,17 +359,6 @@ if /i "%choose%"=="X" (goto menu)
 cls
 echo.
 echo.
-call :ColorText 08  "                                                              Version 2.0 "
-echo.
-echo.
-echo."                                 _                             _            _____   ____    ____  
-echo."                                | |       ___    __ _   _ __  (_) __  __   |  ___| |  _ \  / ___| 
-echo."                                | |      / _ \  / _` | | '__| | | \ \/ /   | |_    | |_) | \___ \ 
-echo."                                | |___  |  __/ | (_| | | |    | |  >  <    |  _|   |  __/   ___) |
-echo."                                |_____|  \___|  \__,_| |_|    |_| /_/\_\   |_|     |_|     |____/ 
-echo.                                                                                               
-echo. 
-call :ColorText 08 "                         _________________________________________________________________________________"
 echo.
 echo.
 echo.
@@ -413,7 +373,7 @@ call :ColorText F " About "
 echo.
 echo.
 echo.
-call :ColorText 8 "                                                        [ X to go Back ]"
+call :ColorText 8 "                                                        [ Geri gitmek için X ]"
 echo.
 echo.
 set /p choose="> "
@@ -428,27 +388,14 @@ cls
 cls
 echo.
 echo.
-call :ColorText 08  "                                                              Version 2.0 "
 echo.
 echo.
-echo."                                 _                             _            _____   ____    ____  
-echo."                                | |       ___    __ _   _ __  (_) __  __   |  ___| |  _ \  / ___| 
-echo."                                | |      / _ \  / _` | | '__| | | \ \/ /   | |_    | |_) | \___ \ 
-echo."                                | |___  |  __/ | (_| | | |    | |  >  <    |  _|   |  __/   ___) |
-echo."                                |_____|  \___|  \__,_| |_|    |_| /_/\_\   |_|     |_|     |____/ 
-echo.                                                                                               
+echo.
 echo. 
-call :ColorText 08 "                         _________________________________________________________________________________"
 echo.
 echo.
 echo.
-call :ColorText 8 "                         The Available Colors are "
-echo.
-call :ColorText 1 "                         Blue " & call :ColorText 8 ", " & call :ColorText 3 " Aqua " & call :ColorText 8 ", " & call :ColorText C " Red " & call :ColorText 8 ", " & call :ColorText 5 " Purple " & call :ColorText 8 ", " & call :ColorText 6 " Yellow " & call :ColorText 8 ", " & call :ColorText F " White " & call :ColorText 8 " and " & call :ColorText 2 " Green "
-echo.
-echo.
-echo.
-call :ColorText 8 "                                                        [ X to go Back ]"
+call :ColorText 8 "                                                        [ Geri gitmek için X ]"
 echo.
 echo.
 set /p choose="> "
@@ -501,30 +448,15 @@ goto ChangeColor
 cls
 echo.
 echo.
-call :ColorText 08  "                                                              Version 2.0 "
-echo.
-echo.
-echo."                                 _                             _            _____   ____    ____  
-echo."                                | |       ___    __ _   _ __  (_) __  __   |  ___| |  _ \  / ___| 
-echo."                                | |      / _ \  / _` | | '__| | | \ \/ /   | |_    | |_) | \___ \ 
-echo."                                | |___  |  __/ | (_| | | |    | |  >  <    |  _|   |  __/   ___) |
-echo."                                |_____|  \___|  \__,_| |_|    |_| /_/\_\   |_|     |_|     |____/ 
-echo.                                                                                               
-echo. 
-call :ColorText 08 "                         _________________________________________________________________________________"
 echo.
 echo.
 echo.
-call :ColorText 8 "                                                          Learix FPS "
-echo.
-call :ColorText 8 "                                                          Version 2.0 "
-echo.
-echo.
-call :ColorText 8 "                                                 Made By " & call :ColorText C " 481FPS " & call :ColorText 8 " [ 481FPS#0001 ] "
 echo.
 echo.
 echo.
-call :ColorText 8 "                                                        [ X to go Back ]"
+echo.
+echo.
+call :ColorText 8 "                                                        [ Geri gitmek için X ]"
 echo.
 echo.
 set /p choose="> "
@@ -537,17 +469,6 @@ if /i "%choose%"=="X" (goto 4)
 cls
 echo.
 echo.
-call :ColorText 08  "                                                              Version 2.0 "
-echo.
-echo.
-echo."                                 _                             _            _____   ____    ____  
-echo."                                | |       ___    __ _   _ __  (_) __  __   |  ___| |  _ \  / ___| 
-echo."                                | |      / _ \  / _` | | '__| | | \ \/ /   | |_    | |_) | \___ \ 
-echo."                                | |___  |  __/ | (_| | | |    | |  >  <    |  _|   |  __/   ___) |
-echo."                                |_____|  \___|  \__,_| |_|    |_| /_/\_\   |_|     |_|     |____/ 
-echo.                                                                                               
-echo. 
-call :ColorText 08 "                         _________________________________________________________________________________"
 echo.
 echo.
 echo.
@@ -591,7 +512,7 @@ call :ColorText F " Debloat "
 echo.
 echo.
 echo.
-call :ColorText 8 "                                                        [ X to go Back ]"
+call :ColorText 8 "                                                        [ Geri gitmek için X ]"
 echo.
 echo.
 set /p choose="> "
