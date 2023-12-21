@@ -3,7 +3,7 @@ cls
 shift /0
 mode 128,33
 color 9
-title Learix FPS 2.0
+title Soner FPS
 cd %systemroot%\system32
 call :IsAdmin
 SETLOCAL EnableDelayedExpansion
@@ -405,7 +405,6 @@ echo.
 echo.
 echo.
 call :ColorText 8 "                         [ "
-call :ColorText B " 3 "
 call :ColorText 8 " ] " 
 call :ColorText F " Servis Optimize "
 call :ColorText 8 "                                         [ "
